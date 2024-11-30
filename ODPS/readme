@@ -1,0 +1,66 @@
+ODPS/
+│
+├── admin/
+│   ├── admin_dashboard.php
+│   ├── manage_colleges.php        // Functionality to manage colleges
+│   ├── manage_departments.php    // Functionality to manage departments
+│   ├── manage_students.php
+│   ├── manage_rooms.php
+│   ├── manage_blocks.php
+│   ├── generate_reports.php
+│   ├── communicate_students.php
+│   ├── manage_notices.php        // Functionality to manage notices
+│   ├── manage_comments.php       // Functionality to manage comments
+│   └── ...
+│
+├── manager/
+│   ├── manager_dashboard.php
+│   ├── manage_dormitories.php
+│   ├── manage_blocks.php
+│   ├── manage_rooms.php
+│   ├── manage_students.php
+│   ├── allocate_rooms.php
+│   ├── generate_reports.php
+│   ├── communicate_staff.php
+│   ├── manage_notices.php        // Functionality to manage notices
+│   ├── manage_comments.php       // Functionality to manage comments
+│   └── ...
+│
+├── proctor/
+│   ├── proctor_dashboard.php
+│   ├── view_student_profiles.php
+│   ├── view_dormitory_applications.php
+│   ├── allocate_rooms.php
+│   ├── manage_roommates.php
+│   ├── communicate_students.php
+│   └── ...
+│
+├── student/
+│   ├── student_dashboard.php
+│   ├── apply_dormitory.php
+│   ├── view_room_assignment.php
+│   ├── view_roommates.php
+│   ├── view_dormitory_info.php
+│   ├── communicate_admin.php
+│   ├── view_notices.php          // Functionality to view notices
+│   ├── add_comment.php           // Functionality to add comments
+│   └── ...
+│
+├── includes/
+│   ├── header.php
+│   ├── footer.php
+│   ├── db_connection.php
+│   └── ...
+│
+├── css/
+│   └── style.css
+│
+├── js/
+│   └── script.js
+│
+├── images/
+│   └── (Directory containing image files)
+│
+├── index.php
+├── login.php
+└── logout.php
